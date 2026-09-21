@@ -79,6 +79,7 @@ export const Content = ({}) => {
                     opacity: isClicked ? 1 : 0,
                     pointerEvents: isClicked ? "auto" : "none"
                 }}
+                transition={{ duration: 0.3}}
                 onClick={() => setIsClicked(!isClicked)}
             >
 
