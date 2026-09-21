@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "./Navbar";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import '../folder.css'
 
 export const Windows = () => {
