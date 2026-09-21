@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --inter-font: 'Inter', sans-serif;
+  --subtxt-color: #726f6f;
+
+  --bg-cream: #F9F8F3;
+  --accent-yellow: #FFD000;
+  --dark-black: #000000;
+  --person-color: #FACC15;
+
+  --folder-gray: #A1A1AA;
+  --folder-green: #4ADE80;
+  --folder-yellow: #FDE047;
+  --folder-lime: #A3E635;
+  --folder-pink: #FB7185;
+  --folder-purple: #818CF8;
+}
+
+body {
+  background-color: var(--bg-cream);
+}
+
+.settw {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 0 #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s ease;
+}
+
+.settw:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+.wall {
+  padding: 30px;
+}
+
+.whead {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  span {
+    list-style-type: none;
+    font-weight: 600;
+    font-family: var(--inter-font);
+    font-size: 1.4rem;
+  }
+}
+
+.wtitle {
+  font-size: 3rem;
+  font-family: var(--inter-font);
+  font-weight: 700;
+}
+
+.wsubtxt{
+  margin-top: 50px;
+  font-family: var(--inter-font);
+  color: #202020;
+  border: 1px solid #000000;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0 #000000;
+  background-color: var(--bg-cream);
+  position: relative;
+
+  ul{
+    list-style-type: none;
+  }
+}
+
+.wsubtxt::before{
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  width: 80px;
+  height: 30px;
+  background-color: var(--folder-purple);
+  border: 1px solid #000000;
+  box-shadow: 5px 5px 0 #000000;
+  z-index: -1;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.linuxfold::before{
+  background-color: var(--folder-yellow);
+
+}
+.macosfold::before{
+  background-color: var(--folder-pink);
+
+}
+.stjosfold::before{
+  background-color: var(--folder-green);
+
+}
+
+
+
+.line{
+  width: 100%;
+  border: 2px dashed var(--folder-purple);
+  margin: 40px auto;
+}
