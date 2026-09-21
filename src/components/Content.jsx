@@ -26,6 +26,19 @@ export const Content = ({}) => {
 
     }
 
+    useEffect(() => {
+
+        const handleScroll = () => {
+            setIsClicked(false)
+        }
+
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, []) 
+
     const itemVariants = {
         closed: {
             opacity: 0,

@@ -23,6 +23,8 @@ export const Macos = () => {
         }
     };
 
+    
+
     const windowsItemVariants = {
         closed: {
             opacity: 0,
