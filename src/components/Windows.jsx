@@ -6,6 +6,10 @@ import '../folder.css'
 
 export const Windows = () => {
 
+    useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
+
     const windowsVariants = {
         closed: { opacity: 0 },
         opened: {
