@@ -9,6 +9,8 @@ import { Staos } from './components/Staos'
 import { Statistika } from './components/Statistika'
 import { OSajtu } from './components/Osajtu'
 
+import { Analytics } from '@vercel/analytics/react'
+
 function App() {
 
   return (
@@ -16,7 +18,7 @@ function App() {
 
     <div className="app">
       <div className="responsivemw">
-        <p className="responsivem"> <Info /> Sajt ne podrzava vece <br /> tablete i Kompjutere !</p>
+        <p className="responsivem"> <Info /> Sajt ne podrzava vece <br /> tablete i kompjutere!</p>
       </div>
       
     <div className="appt">
@@ -35,7 +37,7 @@ function App() {
 
     </div>
 
-
+    <Analytics />
     </div>
   )
 }
