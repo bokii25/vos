@@ -118,18 +118,6 @@ export const Staos = () => {
                 </div>
             </motion.div>
 
-            <motion.div className="wall" variants={windowsItemVariants}>
-                <div className="whead">
-                    <p className="wsubtxt stjosfold">
-                       <strong>Bešavna Integracija (Ekosistem):</strong> <br /> Funkcije poput Handoff-a, AirDrop-a i Universal Control-a omogućavaju trenutno deljenje fajlova i nastavak rada između iPhone-a, iPad-a i Mac-a.
-                        <br /><br />
-                        <strong>Unix Osnova:</strong> Baziran na Unix arhitekturi, macOS kombinuje vrhunsku stabilnost i komandne alate za developere sa jednostavnim grafičkim interfejsom
-                        <br /><br />
-                        <strong>Premium Dizajn i Optimizacija:</strong> Softver je skrojen isključivo za Apple-ov hardver, što pruža maksimalnu energetsku efikasnost i dugotrajnost baterije.
-
-                    </p>
-                </div>
-            </motion.div>
-        </motion.div>
+                    </motion.div>
     );
 };
