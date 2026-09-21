@@ -8,7 +8,7 @@ export const MenuBar = ({ onClose }) => {
     { title: "Windows", icon: <Monitor size={18} />, color: "var(--folder-purple)", to: "/Windows" },
     { title: "Linux", icon: <Terminal size={18} />, color: "var(--folder-lime)", to: "/Linux" },
     { title: "macOS", icon: <Laptop size={18} />, color: "var(--folder-pink)", to: "/Macos" },
-    { title: "Statistika", icon: <BarChart2 size={18} />, color: "var(--person-color)", to: "/Statistika" },
+    { title: "Statistika", icon: <BarChart2 size={18} />, color: "var(--person-color)", to: "/statistika" },
     { title: "Šta je OS?", icon: <HelpCircle size={18} />, color: "var(--folder-green)", to: "/sta-je-os" },
   ];
 

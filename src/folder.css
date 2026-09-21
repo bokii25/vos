@@ -112,6 +112,14 @@ body {
 
 }
 
+.statfold::before{
+  background-color: #ef435d;
+}
+
+
+.osajtufold::before{
+  background-color: var(--folder-gray);
+}
 
 
 .line{
