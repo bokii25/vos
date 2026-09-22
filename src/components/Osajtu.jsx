@@ -81,7 +81,7 @@ export const OSajtu = () => {
 
                             <br /><br />
                             <strong>Pa kako je onda dete napravilo ovaj sajt?</strong> Ako je dete napravilo neki sajt znaci da ga je AI napravio? Da, ali <strong>ne</strong> uvek. 
-                            Veztbao sam i ucio sve stvari koje mozete da vidite na sajtu. <br /><br /> <strong>Od ucenja div strukture u HTML-u, do ucenja pozicioniranja u CSS-u sa display-flex, positon: relative / absolute, display-grid..itd  
+                            Vezbao sam i ucio sve stvari koje mozete da vidite na sajtu. <br /><br /> <strong>Od ucenja div strukture u HTML-u, do ucenja pozicioniranja u CSS-u sa display-flex, positon: relative / absolute, display-grid..itd  
                             Prelazenja na JavaScript i ucenja funcionalnosti, metode sa nizovima, formiranja varijabli i funkcija, objekata i sl. 
                             I nakraju sve je vodilo na ucenju React-a, framework biblioteke JavaScript-a u kome je i uradjen ovaj sajt uz Framer Motion za animacije.
                             </strong>
