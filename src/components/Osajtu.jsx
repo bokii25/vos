@@ -73,7 +73,7 @@ export const OSajtu = () => {
                         <p className="subtxt">
                             <br />
                               Mnogi od vas (korisnika) ce pomisliti da je celokupan sajt
-                            radjen preko AI-ja, kao sto je Cloude, Gemini, ChatGPT, i ostali..
+                            radjen preko AI-ja, kao sto je Claude, Gemini, ChatGPT, i ostali..
                             <br /><br />
 
                             Napominjem jos jednom, ovaj sajt je isklucivo odradjen od strane mene <strong>BEZ AI tool-ova</strong>.
